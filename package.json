@@ -1,0 +1,25 @@
+{
+  "name": "redux-lazy-scroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ReduxLazyScroll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "infinite scroll",
+    "lazy loading",
+    "redux infinite loading",
+    "react lazy loader",
+    "async intinite scroll"
+  ],
+  "author": "Shota",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
