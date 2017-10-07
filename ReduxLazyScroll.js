@@ -71,7 +71,8 @@ ReduxLazyScroll.propTypes = {
   hasMore: React.PropTypes.bool,
   isLoading: React.PropTypes.bool,
   errorMessage: PropTypes.string,
-  loadMore: PropTypes.func
+  loadMore: PropTypes.func,
+  threshold: PropTypes.number
 };
 ReduxLazyScroll.defaultProps = {
   hasMore: true,

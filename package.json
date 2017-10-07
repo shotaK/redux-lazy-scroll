@@ -1,7 +1,7 @@
 {
   "name": "redux-lazy-scroll",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "The minimalistic version of React/Redux infinite scrolling functionality.",
   "main": "ReduxLazyScroll.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
