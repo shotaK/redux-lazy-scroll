@@ -1,6 +1,6 @@
 {
   "name": "redux-lazy-scroll",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "React/Redux infinite/lazy scrolling/loading functionality.",
   "main": "ReduxLazyScroll.js",
   "scripts": {
