@@ -40,7 +40,7 @@ class PostsLazyScroll extends Component {
             }
         </ReduxLazyScroll>
         <div className="row posts-lazy-scroll__messages">
-          {isFetching && <div className="alert alert-info"> Loading more videos... </div>}
+          {isFetching && <div className="alert alert-info"> Loading more posts... </div>}
 
           {!hasMore && !errorMessage &&
             <div className="alert alert-success">All the posts has been loaded successfully.</div>

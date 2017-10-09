@@ -1,6 +1,7 @@
 const path = require('path');
-
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './dev/client/index.html',
   filename: 'index.html',
@@ -10,7 +11,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 module.exports = {
   entry: './dev/client/index.js',
   output: {
-    path: path.join(__dirname, 'dev/client'),
+    path: path.join(__dirname, 'dev/server/public'),
     filename: 'app.bundle.js'
   },
   devServer: {
@@ -24,5 +25,7 @@ module.exports = {
       {test: /\.css$/, use: [{loader: "style-loader/url"}, {loader: "file-loader"}], exclude: /node_modules/}
     ]
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    HtmlWebpackPluginConfig,
+  ]
 };
