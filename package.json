@@ -52,7 +52,6 @@
     "html-webpack-plugin": "^2.30.1",
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
-    "mongoose": "^4.4.20",
     "morgan": "^1.7.0",
     "q": "^1.4.1",
     "cors": "^2.8.4"
