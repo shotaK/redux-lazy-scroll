@@ -86,7 +86,10 @@ class ReduxLazyScroll extends Component {
 ReduxLazyScroll.propTypes = {
   hasMore: PropTypes.bool,
   isFetching: PropTypes.bool,
-  errorMessage: PropTypes.string,
+  errorMessage: PropTypes.oneOfType([
+    PropTypes.bool,
+    PropTypes.string
+  ]),
   loadMore: PropTypes.func,
   threshold: PropTypes.number,
   isParentScrollable: PropTypes.bool,
@@ -99,7 +102,7 @@ ReduxLazyScroll.defaultProps = {
   hasMore: true,
   isFetching: false,
   threshold: 100,
-  errorMessage: "",
+  errorMessage: false,
   loadMore: () => {},
   isParentScrollable: false,
   parentHeight: '100%'

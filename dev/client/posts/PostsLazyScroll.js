@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import '../assets/bootstrap.min.css';
 import '../assets/core.css';
 import ReduxLazyScroll from '../../../src/ReduxLazyScroll';
+import Post from './Post';
 
 class PostsLazyScroll extends Component {
 
@@ -27,17 +28,13 @@ class PostsLazyScroll extends Component {
           loadMore={this.loadPosts}
           hasMore={hasMore}
         >
-            {posts.map(post => (
-              <div className="col-md-3 posts-lazy-scroll__item" key={post._id}>
-                <article className="panel panel-success">
-                  <header className="panel-heading">
-                    <h2 className="panel-title"> {post.name} </h2>
-                  </header>
-                  <p className="panel-body"> {post.description} </p>
-                </article>
-              </div>
+          {posts.map(post => (
+            <Post
+              key={post._id}
+              post={post}
+            />
             ))
-            }
+          }
         </ReduxLazyScroll>
         <div className="row posts-lazy-scroll__messages">
           {isFetching && <div className="alert alert-info"> Loading more posts... </div>}
