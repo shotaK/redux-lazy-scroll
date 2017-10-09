@@ -15,6 +15,7 @@ for (var i = 0; i < 60; i++) {
   var index = i % 6;
   var postObject = JSON.parse(JSON.stringify(posts[index]));
   postObject.name = i + '. ' + postObject.name;
+  postObject._id = i;
   postsData.push(postObject);
 }
 
