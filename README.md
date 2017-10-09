@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/redux-lazy-scroll.svg)](https://badge.fury.io/js/redux-lazy-scroll)
+![Heroku](http://heroku-badge.herokuapp.com/?app=angularjs-crypto&style=flat&svg=1)
+
 # Redux Lazy Scroll
 
 React/Redux lazy scrolling functionality with full Redux implementation example.
