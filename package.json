@@ -2,7 +2,7 @@
   "name": "redux-lazy-scroll",
   "version": "0.1.0",
   "description": "React/Redux infinite/lazy scrolling/loading functionality.",
-  "main": "ReduxLazyScroll.js",
+  "main": "lib/ReduxLazyScroll.js",
   "scripts": {
     "start": "node ./dev/server/index.js",
     "start:dev": "webpack-dev-server --config webpack.dev.js --open",
