@@ -89,4 +89,4 @@ You can find full Redux example [here](https://github.com/shotaK/redux-lazy-scro
 
 ## License
 
-MIT License. Copyright (c) 2017 Shota
+MIT License. Copyright (c) 2018 Shota
