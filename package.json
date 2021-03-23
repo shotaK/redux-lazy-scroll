@@ -25,7 +25,7 @@
     "react lazy loader",
     "async intinite scroll"
   ],
-  "author": "Shota Karkashadze <sh.karkashadze@gmail.com>",
+  "author": "Shota",
   "license": "MIT",
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0",
